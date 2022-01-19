@@ -1,8 +1,6 @@
 title: Cloud4Research
 description: >- # this means to ignore newlines until "baseurl:"
-  Website for researchers at the TU Delft. This website has information
-  about how the IT department can facilitate researchers wanting to use
-  the public cloud.
+  An initiative of the TU Delft IT department
 
 # Build settings
 theme: jekyll-theme-minimal

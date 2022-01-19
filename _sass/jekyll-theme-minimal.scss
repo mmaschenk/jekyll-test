@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 Arial;
-  color:#727272;
+  color:#000000;
   font-weight:400;
 }
 
@@ -26,32 +26,32 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#000000;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#000000;
 }
 
 a {
-  color:#267CB9;
+  color:#00A6D6;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:blue;
+  color:#6F1D77;
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#00A6D6;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#6F1D77;
 }
 
 .wrapper {
