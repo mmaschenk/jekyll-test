@@ -1,0 +1,38 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+<ul>
+{% for item in include.nav %}
+    {% assign item_url_parts = item.url | split: '/' %}
+    {% assign item_url_parts_size = item_url_parts | size %}
+	<li>
+		<a href="{{ item.url }}">
+			{% if item.url == navurl %}
+				[{{item.dir}}]<b>{{ item.text }}</b> {{ item.url }} ->  {{ item_url_parts_size }}
+			{% else %}
+				[{{item.dir}}]{{ item.text }} {{ item.url }} ->  {{ item_url_parts_size }} 
+                {% for a in item_url_parts %}[ {{ a }}]{% endfor %}
+			{% endif %}
+		</a>
+	</li>
+    <ul>
+    {% assign children = site.pages | where_exp: "p", "p.dir == item.url" |
+        where_exp: "p", 'p.menuhide != true ' | where_exp: "p", "p.name != 'index.md'" %}
+    Children: [ {% for c in  children %}{{c.title}} + {{c.name}} + {{c.menuhide}}, {% endfor %}]
+    {% for page in site.pages %}
+        {% assign page_url_parts = page.url | split: '/' %}
+        {% assign page_url_parts_size = page_url_parts | size %}
+
+      % if page.url contains item.url %
+      {%if item.url == page.dir %}
+      <li>
+        <a href="{{ page.url }}">
+            [{{page.dir}}]{{ page.title }} {{ page.url }} -> {{ page_url_parts_size}}
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+	{% if item.subitems and navurl contains item.url %}
+		{% include nav.html nav=item.subitems %}
+	{% endif %}
+{% endfor %}
+</ul>
