@@ -1,0 +1,22 @@
+---
+---
+
+ul.menu {
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.menu li.active {
+    font-weight: bold;
+}
+
+.menu li.submenu-0,
+.menu li.submenu-1,
+.menu li.submenu-2
+{
+    padding-left: 0px;
+}
+
+.menu li.submenu-3 {
+    padding-left: 2em;
+}
