@@ -21,10 +21,10 @@ If you want to be able to use the AWS cli without using a browser (so that you c
 
 1. Install the software.
 
-    Follow the instructions on https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html in order to install the software on your machine. Linux, Windows and MacOS are supported.
+    Follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html> in order to install the software on your machine. Linux, Windows and MacOS are supported.
 
 2. Set up your access key.
 
-    Follow the instructions on https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html in order to create an access key for use with the CLI.
+    Follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html> in order to create an access key for use with the CLI.
 
-    Then follow the instructions on https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html in order to configure your local setup to use the newly created key.
+    Then follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart>.html in order to configure your local setup to use the newly created key.
