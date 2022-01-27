@@ -11,7 +11,7 @@ Cloud4Research is a TU Delft IT service to facilitate the use of public cloud fo
 Initially Amazon AWS is supported. This will be extended in the future, according to demand and available resources.
 
 ## How does it work?
-You can apply for an AWS account by filling in this form **todo** and agreeing to this code of conduct **todo**.
+You can apply for an AWS account by filling in this form **todo** and agreeing to our [terms of use](policy/termsofuse)
 
 A member of the Cloud4Research team will then schedule a meeting to discuss your infrastructure and support needs and your budget requirements.
 
