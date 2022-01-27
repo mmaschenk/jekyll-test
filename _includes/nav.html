@@ -4,7 +4,7 @@
 {% for item in menupages %}
 	{% assign level = item.dir | split: '/' | size %}
     <li class="submenu-{{level}} {% if item.dir == page.dir %}active{% endif %}">
-        <a href="{{item.url}}">{{ item.title }}</a>
+        <a href="{{item.url | relative_url }}">{{ item.title }}</a>
     </li>
 
 {% endfor %}
