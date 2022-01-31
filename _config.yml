@@ -5,3 +5,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Build settings
 theme: jekyll-theme-minimal
 
+defaults:
+  - values:
+      layout: "default"
