@@ -10,7 +10,6 @@ A number of policies is in place that are relevant to using Cloud4Research servi
 
 {% assign policypages = site.pages | where_exp: "p", "p.dir == page.dir" | where_exp: "p", "p.name != 'index.md'" %}
 
-Dir: {{ page.dir }}
 {% for page in policypages %}
 
 --------------

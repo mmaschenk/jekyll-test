@@ -1,5 +1,5 @@
 ---
-title: Financiel policies for TU Delft Cloud4Research
+title: Financial policies for TU Delft Cloud4Research
 ---
 These are the financial rules
 
