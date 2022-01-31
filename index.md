@@ -13,7 +13,7 @@ Initially Amazon AWS is supported. This will be extended in the future, accordin
 ## How does it work?
 You can apply for an AWS account by filling in this form **todo** and agreeing to our [terms of use]({% link 10-policy/termsofuse.md %})
 
-A member of the Cloud4Research team will then schedule a meeting to discuss your infrastructure and support needs and your budget requirements.
+A member of the Cloud4Research team will then schedule a meeting to discuss your infrastructure and support needs and your [financial requirements]({% link 10-policy/finance.md %}).
 
 ## What do you get?
 An AWS account with management rights. A limited initial budget to help get you started. The option to supply a project code for further expenses. Monthly and threshold budget notification emails. No more personal credit cards!
