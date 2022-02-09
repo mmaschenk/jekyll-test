@@ -7,9 +7,9 @@ title: FAQ
 ---
 ### Frequently asked questions
 
-This page holds the frequently asked question with regards to Cloud4Research.
+This page holds the frequently asked question with regards to {{site.data.naming.servicename}}.
 
-**Is your question not answered here?** Please e-mail to <xxxx@tudelft.nl>
+**Is your question not answered here?** Please e-mail to <{{site.data.naming.teammail}}>
 
 {% assign faqpages = site.pages | where_exp: "p", "p.dir == page.dir" | where_exp: "p", "p.name != 'index.md'" %}
 

@@ -5,8 +5,8 @@
 layout: default
 title: Welcome to Cloud4Research
 ---
-## What is Cloud4Research?
-Cloud4Research is a TU Delft IT service to facilitate the use of public cloud for research.
+## What is {{site.data.naming.servicename}}?
+{{site.data.naming.servicename}} is a TU Delft IT service to facilitate the use of public cloud for research.
 
 Initially Amazon AWS is supported. This will be extended in the future, according to demand and available resources.
 
@@ -15,12 +15,12 @@ Initially Amazon AWS is supported. This will be extended in the future, accordin
 ## How does it work?
 You can apply for an AWS account by filling in this form **todo** and agreeing to our [terms of use]({{ termsofuse | relative_url }})
 
-A member of the Cloud4Research team will then schedule a meeting to discuss your infrastructure and support needs and your [financial requirements]({{ finance | relative_url }}).
+A member of the {{site.data.naming.team}} will then schedule a meeting to discuss your infrastructure and support needs and your [financial requirements]({{ finance | relative_url }}).
 
 ## What do you get?
 An AWS account with management rights. A limited initial budget to help get you started. The option to supply a project code for further expenses. Monthly and threshold budget notification emails. No more personal credit cards!
 
-Initially, that's it. The Cloud4Research team is busy studying and hoping to expand, so that they can provide more advice and support in the future.
+Initially, that's it. The {{site.data.naming.team}} is busy studying and hoping to expand, so that they can provide more advice and support in the future.
 
 ## What is a public cloud?
 A public cloud provider offers managed, on-demand computing services and infrastructure through the public internet. Well known examples include Amazon AWS, Microsoft Azure and Google GCP. They allow you to 'build' anything from one simple computer to a whole data centre, without having to buy, power, connect, cool, install and maintain the hard infrastructure.
