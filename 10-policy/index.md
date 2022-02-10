@@ -6,7 +6,7 @@ layout: default
 title: Policies
 ---
 
-A number of policies is in place that are relevant to using {{site.data.naming.servicename}} Cloud4Research services
+A number of policies is in place that are relevant to using {{site.data.naming.servicename}} services
 
 {% assign policypages = site.pages | where_exp: "p", "p.dir == page.dir" | where_exp: "p", "p.name != 'index.md'" %}
 

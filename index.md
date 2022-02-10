@@ -2,7 +2,6 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
 title: Welcome to Cloud4Research
 ---
 ## What is {{site.data.naming.servicename}}?
@@ -12,8 +11,9 @@ Initially Amazon AWS is supported. This will be extended in the future, accordin
 
 {% capture termsofuse %}{% link 10-policy/termsofuse.md %}{%endcapture%}
 {% capture finance %}{% link 10-policy/finance.md %}{%endcapture%}
+{% capture requestform %}{% link requestform.md %}{%endcapture%}
 ## How does it work?
-You can apply for an AWS account by filling in this form **todo** and agreeing to our [terms of use]({{ termsofuse | relative_url }})
+You can apply for an AWS account by filling in [this form]({{ requestform | relative_url }}) and agreeing to our [terms of use]({{ termsofuse | relative_url }})
 
 A member of the {{site.data.naming.team}} will then schedule a meeting to discuss your infrastructure and support needs and your [financial requirements]({{ finance | relative_url }}).
 
