@@ -3,7 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   An initiative of the TU Delft IT department
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: "just-the-docs"
 
 defaults:
   - values:
