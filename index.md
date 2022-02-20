@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Welcome to Cloud4Research
+title: Welcome
 ---
 ## What is Cloud4Research?
 Cloud4Research is a TU Delft IT service to facilitate the use of public cloud for research.
