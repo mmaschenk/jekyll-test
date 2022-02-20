@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Financial policies for TU Delft Cloud4Research
 ---
 {{site.data.naming.servicename}} services are based on the principle that the researcher pays for the services that she uses in the cloud (but see the note on base financing below). This payment is performed from a budget that the researcher has access to. Payment is administratively handled using internal TU Delft processes, so apart from assuring access to the budget, no additional administration is required.

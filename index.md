@@ -2,7 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+<<<<<<< HEAD
 title: Welcome to Cloud4Research
+=======
+layout: default
+title: Welcome
+>>>>>>> feature/doctheme
 ---
 ## What is {{site.data.naming.servicename}}?
 {{site.data.naming.servicename}} is a TU Delft IT service to facilitate the use of public cloud for research.
