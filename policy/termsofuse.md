@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Use for TU Delft Cloud4Research
+parent: Policies
 ---
 Terms of Use TU Delft Cloud for Research
 

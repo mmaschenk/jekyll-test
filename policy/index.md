@@ -4,16 +4,9 @@
 
 layout: default
 title: Policies
+nav_order: 10
+has_children: true
 ---
 
 A number of policies is in place that are relevant to using Cloud4Research services
 
-{% assign policypages = site.pages | where_exp: "p", "p.dir == page.dir" | where_exp: "p", "p.name != 'index.md'" %}
-
-{% for page in policypages %}
-
---------------
-
-[{{page.title}}]({{page.url | relative_url }})
-
-{% endfor %}

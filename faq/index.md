@@ -4,19 +4,11 @@
 
 layout: default
 title: FAQ
+nav_order: 70
+has_children: true
 ---
 ### Frequently asked questions
 
 This page holds the frequently asked question with regards to Cloud4Research.
 
 **Is your question not answered here?** Please e-mail to <xxxx@tudelft.nl>
-
-{% assign faqpages = site.pages | where_exp: "p", "p.dir == page.dir" | where_exp: "p", "p.name != 'index.md'" %}
-
-{% for page in faqpages %}
-
---------------
-
-[{{page.title}}]({{page.url | relative_url }})
-
-{% endfor %}
