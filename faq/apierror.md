@@ -1,6 +1,7 @@
 ---
 layout: default
 title: I get messages from AWS about an API error.
+parent: FAQ
 ---
 
 ## I get messages from AWS about an API error. What should I do?

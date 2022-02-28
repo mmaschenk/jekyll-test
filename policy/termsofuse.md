@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Terms of Use for TU Delft Cloud4Research
+parent: Policies
+nav_order: 10
+permalink: /termsofuse
 ---
 Terms of Use {{site.data.naming.servicename}}
 

@@ -3,15 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Welcome
+nav_order: 1
 ---
-## What is {{site.data.naming.servicename}}?
-{{site.data.naming.servicename}} is a TU Delft IT service to facilitate the use of public cloud for research.
+## What is Cloud4Research?
+Cloud4Research is a TU Delft IT service to facilitate the use of public cloud for research.
 
 Initially Amazon AWS is supported. This will be extended in the future, according to demand and available resources.
 
-{% capture termsofuse %}{% link 10-policy/termsofuse.md %}{%endcapture%}
-{% capture finance %}{% link 10-policy/finance.md %}{%endcapture%}
+{% capture termsofuse %}{% link policy/termsofuse.md %}{%endcapture%}
+{% capture finance %}{% link policy/finance.md %}{%endcapture%}
 {% capture requestform %}{% link requestform.md %}{%endcapture%}
+
 ## How does it work?
 You can apply for an AWS account by filling in [this form]({{ requestform | relative_url }}) and agreeing to our [terms of use]({{ termsofuse | relative_url }})
 
@@ -29,4 +31,4 @@ A public cloud provider offers managed, on-demand computing services and infrast
 For AWS, [this is a good place to start](https://aws.amazon.com/?aws-products-featured).
 
 ## I have a problem with my AWS account. Where do I go for help?
-Try the [Frequently Asked Questions]({{site.baseurl}}/faq).
+Try the [Frequently Asked Questions]({{site.baseurl}}/70-faq).
