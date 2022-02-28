@@ -1,5 +1,6 @@
 ---
 title: Starting off
+layout: default
 ---
 # Welcome
 
@@ -22,4 +23,5 @@ It is certainly possible to use cloud datacenters in a safe way. However, as the
 ### 4. Switch off the lights
 
 Cloud computing can be very cost-effective in certain scenarios, but it can also bite you when used in the wrong way.
+One of the most obvious ways of keeping the costs manageable is simple: switch off stuff. Virtual machines that are running in your environment will cost money, unless they are switched off! There's ways of scripting the power-management for your machines, and also more sophisticated ways of making sure that costs are only accrued when you are actually calculating. Tell us your scenario so we can help you setting this up!
 
