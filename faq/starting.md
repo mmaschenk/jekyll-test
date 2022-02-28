@@ -1,9 +1,8 @@
 ---
-title: Starting off
+title: Basic guidelines
 layout: default
+parent: FAQ
 ---
-# Welcome
-
 You have just received the credentials to log in to your new cloud account. Congratulations! You are now the proud owner of not a single computer, but of an entire datacenter. You have the capabilities to create any number of server machines, network configurations, firewalls, databases, disks, storage systems, and many more advanced resources. Do you feel overwhelmed by the possibilities? That is only natural! Let's talk about a few simple guidelines that may help to keep you up and running:
 
 ### 1. Please ask us
