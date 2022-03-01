@@ -31,4 +31,5 @@ A public cloud provider offers managed, on-demand computing services and infrast
 For AWS, [this is a good place to start](https://aws.amazon.com/?aws-products-featured).
 
 ## I have a problem with my AWS account. Where do I go for help?
-Try the [Frequently Asked Questions]({{site.baseurl}}/70-faq).
+Try the [Frequently Asked Questions]({% link faq/index.md %}).
+
