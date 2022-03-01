@@ -14,6 +14,8 @@ Initially Amazon AWS is supported. This will be extended in the future, accordin
 {% capture finance %}{% link policy/finance.md %}{%endcapture%}
 {% capture requestform %}{% link requestform.md %}{%endcapture%}
 
+{% capture faq %}{% link faq/index.md %}{%endcapture%}
+
 ## How does it work?
 You can apply for an AWS account by filling in [this form]({{ requestform | relative_url }}) and agreeing to our [terms of use]({{ termsofuse | relative_url }})
 
@@ -31,5 +33,5 @@ A public cloud provider offers managed, on-demand computing services and infrast
 For AWS, [this is a good place to start](https://aws.amazon.com/?aws-products-featured).
 
 ## I have a problem with my AWS account. Where do I go for help?
-Try the [Frequently Asked Questions]({% link faq/index.md %}).
+Try the [Frequently Asked Questions]({{faq | relative_url}}).
 
