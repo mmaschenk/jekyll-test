@@ -1,6 +1,7 @@
 ---
 layout: default
 title: How do I use the AWS CLI from my laptop?
+parent: FAQ
 ---
 
 The AWS Command Line Interface is a command line tool that enables you to perform all AWS actions that you can do from the AWS Web Console directly from your a command line.
