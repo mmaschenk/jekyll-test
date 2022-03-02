@@ -17,7 +17,7 @@ Initially Amazon AWS is supported. This will be extended in the future, accordin
 {% capture faq %}{% link faq/index.md %}{%endcapture%}
 
 ## How does it work?
-You can apply for an AWS account by filling in [this form]({{ requestform | relative_url }}) and agreeing to our [terms of use]({{ termsofuse | relative_url }})
+You can apply for an AWS account by sending an email to us at <{{site.data.naming.teammail}}>. We will plan an intake meeting with you as soon as possible.
 
 A member of the {{site.data.naming.team}} will then schedule a meeting to discuss your infrastructure and support needs and your [financial requirements]({{ finance | relative_url }}).
 
