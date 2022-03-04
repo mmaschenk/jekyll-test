@@ -19,7 +19,7 @@ Initially Amazon AWS is supported. This will be extended in the future, accordin
 ## How does it work?
 You can apply for an AWS account by sending an email to us at <{{site.data.naming.teammail}}>. We will plan an intake meeting with you as soon as possible.
 
-A member of the {{site.data.naming.team}} will then schedule a meeting to discuss your infrastructure and support needs and your [financial requirements]({{ finance | relative_url }}).
+A member of the {{site.data.naming.team}} will then discuss with you your infrastructure and support needs and your [financial requirements]({{ finance | relative_url }}).
 
 ## What do you get?
 An AWS account with management rights. A limited initial budget to help get you started. The option to supply a project code for further expenses. Monthly and threshold budget notification emails. No more personal credit cards!

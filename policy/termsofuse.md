@@ -25,26 +25,26 @@ Terms of Use {{site.data.naming.servicename}}
 
     A request for {{site.data.naming.servicename}} services must include an intended end date of the service.
 
-    A request for {{site.data.naming.servicename}} services must include a financial code (project code or structural code) for billing (see chapter 6). Before the cloud account is provisioned written approval by the responsible person for the financial code must be delivered.
+    A request for {{site.data.naming.servicename}} services must include a financial code (project code or structural code) for billing (see chapter 6). Before the cloud account is provisioned, written approval by the responsible person for the financial code must be delivered.
 
 4.	**Best practices**
 
-    {{site.data.naming.servicename}} will deliver cloud accounts with default settings based on best practices both by the service deliverer (Amazon) and TU Delft. These settings are intended to guard the researcher from unintended mistakes in setting up her cloud resources. 
+    {{site.data.naming.servicename}} will deliver cloud accounts with default settings based on best practices both by the service deliverer (Amazon) and TU Delft. These settings are intended to guard the researcher from unintended mistakes in setting up their cloud resources. 
 
 5.	**Data protection**
 
-    {{site.data.naming.servicename}} functions under a shared responsibility model: responsibility for the protection, security and compliance for your data is shared among the actual cloud provider (AWS in the current situation), the Cloud4Research support team, and the individual researcher(s) actually using the Cloud resources.
+    {{site.data.naming.servicename}} functions under a shared responsibility model: responsibility for the protection, security and compliance for your data is shared among the actual cloud provider (AWS in the current situation), the {{site.data.naming.servicename}} support team, and the individual researcher(s) actually using the Cloud resources.
 
     As a baseline, {{site.data.naming.servicename}} will typically provide a Cloud account that shields the user from storing data outside of Europe, and also providing guards (either preventing or signalling) against breaching common security best-practices.
 
-    {{site.data.naming.servicename}} will also act as advisor's on how best to set up compliant Cloud environments. As the {{site.data.naming.team}} progresses, additional services in this field will be developed.
+    {{site.data.naming.servicename}} will also act as advisors on how best to set up compliant Cloud environments. As the {{site.data.naming.team}} progresses, additional services in this field will be developed.
 
 6.	**Costs**
 
-    {{site.data.naming.servicename}} will pre-finance each cloud account with a base amount per (calendar)year. This means that if the researcher does not spend more than this base amount on cloud resources, no billing will take place and the researcher can use the service essentially “for free”.
+    {{site.data.naming.servicename}} will pre-finance each cloud account with a base amount per (calendar) year. This means that if the researcher does not spend more than this base amount on cloud resources, no billing will take place and the researcher can use the service essentially “for free”.
 
     Costs higher than the base amount will be billed to the financial code that was provided in the initial request. This billing will be performed monthly.
 
-    The exact height of the base amount will be jointly determined in the initial meeting following a cloud request.
+    The base amount will be determined jointly in the initial meeting following a cloud request.
 
-    Please note that tools are available to monitor costs as they develop. Our support team is available to help you asses your predicted costs and set up monitoring for you.
+    Please note that tools are available to monitor costs as they develop. The {{site.data.naming.servicename}} support team is available to help you asses your predicted costs and set up monitoring for you.
