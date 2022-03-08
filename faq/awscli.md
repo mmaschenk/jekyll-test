@@ -29,3 +29,5 @@ If you want to be able to use the AWS cli without using a browser (so that you c
     Follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html> in order to create an access key for use with the CLI.
 
     Then follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html> in order to configure your local setup to use the newly created key.
+
+    We strongly recommend you specify the `eu-central-1` region.
