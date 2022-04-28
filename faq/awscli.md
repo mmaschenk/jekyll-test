@@ -31,7 +31,7 @@ If you want to be able to use the AWS cli without using a browser (so that you c
     TL;DR
     ```
     $ aws configure sso
-    SSO start URL [None]: [None]: https://tudelft.awsapps.com/start
+    SSO start URL [None]: https://tudelft.awsapps.com/start
     SSO region [None]: eu-central-1
     ```
     ... and follow the instructions. You can now log in with your NetID.
