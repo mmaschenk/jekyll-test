@@ -24,10 +24,21 @@ If you want to be able to use the AWS cli without using a browser (so that you c
 
     Follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html> in order to install the software on your machine. Linux, Windows and MacOS are supported.
 
-2. Set up your access key.
+2. Set up Single Sign On (SSO).
 
-    Follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html> in order to create an access key for use with the CLI.
+    Full instructions can be found here: <https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html>.
 
-    Then follow the instructions on <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html> in order to configure your local setup to use the newly created key.
+    TL;DR
+    ```
+    $ aws configure sso
+    SSO start URL [None]: https://tudelft.awsapps.com/start
+    SSO region [None]: eu-central-1
+    ```
+    ... and follow the instructions. You can now log in with your NetID.
+
+    An SSO session times out after 4 hours. You can start a new session with:
+    ```
+    aws sso login
+    ```
 
     We strongly recommend you specify the `eu-central-1` region.
