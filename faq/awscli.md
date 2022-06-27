@@ -32,9 +32,9 @@ If you want to be able to use the AWS cli without using a browser (so that you c
     ```
     $ aws configure sso
     SSO start URL [None]: https://tudelft.awsapps.com/start
-    SSO region [None]: eu-central-1
+    SSO region [None]: eu-west-1
     ```
-    ... and follow the instructions. You can now log in with your NetID.
+    ... and follow the instructions. You can now log in with your NetID. We recommend you select `eu-central-1` as your default region (this is independent from the above value for 'SSO region', which needs to be `eu-west-1`)
 
     An SSO session times out after 4 hours. You can start a new session with:
     ```
