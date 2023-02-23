@@ -5,7 +5,7 @@ To develop the site do the following:
 Run these commands once per system where you develop (requires root access)
 
 ```
-% sudo apt install ruby ruby-dev
+% sudo apt install ruby ruby-dev build-essential
 % sudo gem install jekyll bundler
 ```
 
